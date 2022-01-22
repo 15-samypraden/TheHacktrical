@@ -1,0 +1,58 @@
+#head{
+    background: url(https://images.squarespace-cdn.com/content/v1/5184d182e4b0580e00094282/1541069689330-VTNR3X1DN5PLW480E5B1/sheikh-zayed-02.jpg);
+    background-size: cover;
+    width: 85rem;
+    height: 30rem;
+    margin-left: 1rem;
+    margin-top: 1.75rem;
+    border-radius: 3rem;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    color: #FFD700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Lobster", Time New Roman;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+}
+.txtshdo{
+    text-shadow: 1px 1px 0.8px #000000, -1px 1px 0.8px #000000, 1px -1px 0.8px #000000, -1px -1px 0.8px #000000;
+}
+body{
+    background-color: #FFB404;
+}
+#desc{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: "Lobster", Times New Roman;
+    text-align: center;
+    line-height: 7rem;
+}
+h3{
+    text-align: center;
+    font-family: "Lobster", Times New Roman;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+#door{
+    width: 15rem;
+    height: 25rem;
+    background-color:saddlebrown;
+    margin-left: 30.5rem;
+}
+#door:after{
+    content: "";
+    width: 15rem;
+    height: 25rem;
+    background-color:saddlebrown;
+    position: absolute;
+    right: 28.5rem;
+}
